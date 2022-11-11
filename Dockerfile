@@ -2,8 +2,6 @@ FROM tensorflow/tensorflow:latest-gpu
 
 WORKDIR /tf-moonanul
 
-VOLUME [ "/ds004146" ] 
-
 COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
