@@ -6,7 +6,7 @@ nilearn
 jupyter_contrib_nbextensions
 nb_conda
 nb_conda_kernels
-nbconvert=5
+nbconvert
 nbformat
 pandas
 pip
