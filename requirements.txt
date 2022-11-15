@@ -5,4 +5,4 @@ datalad
 nipype
 nilearn
 seaborn
-
+openneuro-py
