@@ -1,0 +1,25 @@
+strict digraph  {
+"selectfiles (io)";
+"extract (fsl)";
+"coreg_step1 (fsl)";
+"coreg_step2 (fsl)";
+"datasink (io)";
+"mcflirt (fsl)";
+"art (rapidart)";
+"smooth (spm)";
+"selectfiles (io)" -> "extract (fsl)";
+"selectfiles (io)" -> "coreg_step1 (fsl)";
+"selectfiles (io)" -> "coreg_step2 (fsl)";
+"selectfiles (io)" -> "datasink (io)";
+"extract (fsl)" -> "mcflirt (fsl)";
+"extract (fsl)" -> "datasink (io)";
+"coreg_step1 (fsl)" -> "coreg_step2 (fsl)";
+"coreg_step1 (fsl)" -> "datasink (io)";
+"coreg_step2 (fsl)" -> "smooth (spm)";
+"mcflirt (fsl)" -> "coreg_step1 (fsl)";
+"mcflirt (fsl)" -> "coreg_step2 (fsl)";
+"mcflirt (fsl)" -> "datasink (io)";
+"mcflirt (fsl)" -> "art (rapidart)";
+"art (rapidart)" -> "datasink (io)";
+"smooth (spm)" -> "datasink (io)";
+}

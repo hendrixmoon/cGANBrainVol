@@ -1,0 +1,114 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "00_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "00_selectfiles"
+        ],
+        "name": "01_extract",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "01_extract"
+        ],
+        "name": "02_mcflirt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "02_mcflirt",
+            "00_selectfiles"
+        ],
+        "name": "03_coreg_step1",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "02_mcflirt"
+        ],
+        "name": "04_art",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "02_mcflirt",
+            "00_selectfiles",
+            "03_coreg_step1"
+        ],
+        "name": "05_coreg_step2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "05_coreg_step2"
+        ],
+        "name": "06_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "05_coreg_step2"
+        ],
+        "name": "07_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "05_coreg_step2"
+        ],
+        "name": "08_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "06_smooth",
+            "02_mcflirt",
+            "00_selectfiles",
+            "03_coreg_step1",
+            "01_extract",
+            "04_art"
+        ],
+        "name": "09_datasink",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "07_smooth",
+            "02_mcflirt",
+            "00_selectfiles",
+            "03_coreg_step1",
+            "01_extract",
+            "04_art"
+        ],
+        "name": "10_datasink",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "08_smooth",
+            "02_mcflirt",
+            "00_selectfiles",
+            "03_coreg_step1",
+            "01_extract",
+            "04_art"
+        ],
+        "name": "11_datasink",
+        "size": 1
+    }
+]

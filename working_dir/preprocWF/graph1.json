@@ -1,0 +1,244 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "total": 12
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 8,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "value": 1
+        }
+    ],
+    "maxN": 12,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_selectfiles",
+            "report": "/home/moonanul/project//selectfiles/_report/report.rst",
+            "result": "/home/moonanul/project//selectfiles/result_selectfiles.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_extract",
+            "report": "/home/moonanul/project//extract/_report/report.rst",
+            "result": "/home/moonanul/project//extract/result_extract.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_mcflirt",
+            "report": "/home/moonanul/project//mcflirt/_report/report.rst",
+            "result": "/home/moonanul/project//mcflirt/result_mcflirt.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_coreg_step1",
+            "report": "/home/moonanul/project//coreg_step1/_report/report.rst",
+            "result": "/home/moonanul/project//coreg_step1/result_coreg_step1.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_art",
+            "report": "/home/moonanul/project//art/_report/report.rst",
+            "result": "/home/moonanul/project//art/result_art.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_coreg_step2",
+            "report": "/home/moonanul/project//coreg_step2/_report/report.rst",
+            "result": "/home/moonanul/project//coreg_step2/result_coreg_step2.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_smooth",
+            "report": "/home/moonanul/project//_fwhm_2/smooth/_report/report.rst",
+            "result": "/home/moonanul/project//_fwhm_2/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "7_smooth",
+            "report": "/home/moonanul/project//_fwhm_4/smooth/_report/report.rst",
+            "result": "/home/moonanul/project//_fwhm_4/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "8_smooth",
+            "report": "/home/moonanul/project//_fwhm_8/smooth/_report/report.rst",
+            "result": "/home/moonanul/project//_fwhm_8/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "9_datasink",
+            "report": "/home/moonanul/project//_fwhm_2/datasink/_report/report.rst",
+            "result": "/home/moonanul/project//_fwhm_2/datasink/result_datasink.pklz"
+        },
+        {
+            "group": 1,
+            "name": "10_datasink",
+            "report": "/home/moonanul/project//_fwhm_4/datasink/_report/report.rst",
+            "result": "/home/moonanul/project//_fwhm_4/datasink/result_datasink.pklz"
+        },
+        {
+            "group": 1,
+            "name": "11_datasink",
+            "report": "/home/moonanul/project//_fwhm_8/datasink/_report/report.rst",
+            "result": "/home/moonanul/project//_fwhm_8/datasink/result_datasink.pklz"
+        }
+    ]
+}
